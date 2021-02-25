@@ -26,6 +26,6 @@ export default class ReadyHandler implements EventHandler {
     await this.commandService.init();
     await this.reactionRoles.init();
 
-    await bot.user?.setActivity('2PG.xyz');
+    await bot.user?.setActivity('.help');
   }
 }
